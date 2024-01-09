@@ -1,0 +1,61 @@
+.login-page {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #007BFF, #00BFFF); /* Gradient from blue to sky blue */
+  }
+  
+  p {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .login-with-google-btn {
+    background-color: #ffffff; /* Button background color */
+    color: #007BFF; /* Button text color */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition for smooth effect */
+  }
+  
+  .google_logo{
+    width: 20px;
+  }
+  
+  .login-with-google-btn:hover {
+    background-color: #007BFF; /* Change background color on hover */
+    color: #ffffff; /* Change text color on hover */
+  }
+  
+.login-with-google-btn {
+    display: flex;
+    align-items: center; /* Center items horizontally within the button */
+    background-color: #ffffff; /* Button background color */
+    color: #007BFF; /* Button text color */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition for smooth effect */
+  }
+  
+  .google_logo {
+    width: 20px;
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  
+  .login-with-google-btn:hover {
+    background-color: #007BFF; /* Change background color on hover */
+    color: #ffffff; /* Change text color on hover */
+  }h1{
+    color:white;
+    margin-bottom: 25px;
+  }
